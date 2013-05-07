@@ -1,0 +1,14 @@
+config XENO_GENERIC_STACKPOOL
+	bool
+	default y
+
+source "kernel/xenomai/nucleus/Kconfig"
+
+menu "Machine"
+
+depends on XENO_OPT_NUCLEUS
+
+endmenu
+
+source "kernel/xenomai/skins/Kconfig"
+source "drivers/xenomai/Kconfig"

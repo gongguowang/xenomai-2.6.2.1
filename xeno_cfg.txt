@@ -1,0 +1,1 @@
+/home/gonggw/mini6410/kernel/etherlab-bundle-1.10/xenomai-2.6.2.1/configure --prefix=/home/gonggw/mini6410/rootfs/usr/xenomai LDFLAGS="-L/home/gonggw/arm_tools/tools/arm-linux-gnueabi/lib" --enable-debug --host=arm-linux-gnueabi --build=arm-linux
